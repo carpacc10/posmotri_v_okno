@@ -61,13 +61,13 @@ fieldset {
   border: none;
 }
 
-button {
+.button {
   font-family: inherit;
   color: inherit;
   font-size: inherit;
   background-color: transparent;
   border: 1px solid #fff;
-  height: 34px;
+  min-height: 34px;
   width: 100%;
   cursor: pointer;
 }
@@ -189,8 +189,8 @@ button {
   border: none;
   width: 225px;
   padding: 0;
-  border-top: 1px solid #fff;
-  border-bottom: 1px solid #fff;
+  border-top: 1px solid currentColor;
+  border-bottom: 1px solid currentColor;
   appearance: none;
 }
 
@@ -213,13 +213,13 @@ button {
   align-self: flex-end;
 }
 
-button:focus,
+.button:focus,
 .content__card-link:focus,
 .search-form__textfield:focus {
   outline: none;
 }
 
-button:focus-visible,
+.button:focus-visible,
 .content__card-link:focus-visible,
 .search-form__label:has(:focus-visible) {
   outline: 1px solid #fff;
@@ -241,13 +241,13 @@ button:focus-visible,
   height: 15px;
 }
 
-button:hover,
+.button:hover,
 .search-form__label:hover {
   text-decoration: underline;
   text-underline-offset: 4px;
 }
 
-button:active {
+.button:active {
   background-color: #545050;
   text-decoration: none;
 }
