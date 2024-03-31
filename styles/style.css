@@ -226,6 +226,7 @@ ol {
   outline-offset: 1px;
 }
 
+
 .content__video-card:hover {
   text-decoration: underline;
   text-underline-offset: 6px;
@@ -242,7 +243,7 @@ ol {
 }
 
 .button:hover,
-.search-form__label:hover {
+.search-form__label:hover .search-form__label-text {
   text-decoration: underline;
   text-underline-offset: 4px;
 }
